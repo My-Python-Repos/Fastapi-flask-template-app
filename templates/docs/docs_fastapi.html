@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustAdvanceTechnology</title>
+</head>
+<body>
+    <div>
+        <h2>
+            Documenation for Fastapi mounted on Flask
+        </h2>
+         </div>
+         <div>
+             <a href="http://127.0.0.1:8000/docs" class='btn'>API</a>
+         </div>
+         <div>
+        <form method="POST" action='/mlpredict'>
+            <input type='text' name='searchTerm'>
+            <button type="submit">Submit</button>
+        </form>
+         </div>
+         <div>
+             <p>Original Search term {{ searchTerm}}</p>
+             {{results}}
+         </div>
+</body>
+</html>
